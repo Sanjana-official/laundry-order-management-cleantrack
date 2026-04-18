@@ -170,7 +170,7 @@ https://your-app.onrender.com
 ```
 
 
-## My Message
+## 📩 My Message
 
 During this project, I went beyond the minimum requirements by building a fully functional full-stack system instead of just implementing isolated features. I focused on making the application realistic and usable, including authentication, database integration, and a complete order management workflow.
 
