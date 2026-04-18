@@ -44,7 +44,13 @@ Open:
 http://localhost:5000
 ```
 
----
+## 🌍 Live Demo
+
+
+```
+
+https://laundry-order-management-cleantrack.onrender.com
+```
 
 # FILE MAP
 
@@ -161,13 +167,6 @@ cleantrack/ <br>
 
 ---
 
-## 🌍 Live Demo
-
-
-```
-
-https://laundry-order-management-cleantrack.onrender.com
-```
 
 ## 📩 My Message
 
