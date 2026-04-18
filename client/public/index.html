@@ -593,17 +593,47 @@ function doLogout() {
 /* ══════════════════════════════════════════════
    API FETCH WRAPPER
 ══════════════════════════════════════════════ */
-async function apiFetch(path, method = 'GET', body) {
+// async function apiFetch(path, method = 'GET', body) {
+//   const opts = {
+//     method,
+//     headers: { 'Content-Type': 'application/json', ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}) },
+//   };
+//   if (body) opts.body = JSON.stringify(body);
+//   const res  = await fetch(API + path, opts);
+//   const data = await res.json();
+//   if (!res.ok) throw new Error(data.message || `HTTP ${res.status}`);
+//   return data;
+// }
+
+  async function apiFetch(path, method = 'GET', body) {
   const opts = {
     method,
-    headers: { 'Content-Type': 'application/json', ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}) },
+    headers: {
+      'Content-Type': 'application/json',
+      ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {})
+    },
   };
+
   if (body) opts.body = JSON.stringify(body);
-  const res  = await fetch(API + path, opts);
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.message || `HTTP ${res.status}`);
+
+  const res = await fetch(API + path, opts);
+
+  const text = await res.text(); 
+
+  let data;
+  try {
+    data = JSON.parse(text); // try JSON first
+  } catch (e) {
+    throw new Error(text); // fallback for "Not Found"
+  }
+
+  if (!res.ok) {
+    throw new Error(data.message || text);
+  }
+
   return data;
 }
+
 
 /* ══════════════════════════════════════════════
    PRICES / GARMENT TABLE
