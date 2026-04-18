@@ -49,10 +49,10 @@ http://localhost:5000
 
 # FILE MAP
 
-cleantrack/
-├── package.json                   ← dependencies & npm scripts
-├── .env.example                   ← environment variable template
-├── .gitignore
+cleantrack/ <br>
+├── package.json                   ← dependencies & npm scripts<br>
+├── .env.example                   ← environment variable template<br>
+├── .gitignore<br>
 ├── README.md                      ← full setup + deployment guide
 │
 ├── server/
