@@ -1,6 +1,5 @@
 # laundry-order-management-cleantrack 🧺
 
----
 
 ## 🚀 Setup Instructions
 
@@ -75,6 +74,7 @@ cleantrack/ <br>
 ├── railway.toml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Railway deploy config<br>
 └── Dockerfile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Docker / AWS / GCP<br>
 
+---
 
 ## 🛠️ Tech Stack
 🎨 Frontend: HTML, CSS, JavaScript (Vanilla)<br>
