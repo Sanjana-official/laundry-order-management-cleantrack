@@ -5,14 +5,14 @@
 
 ### 1. Clone the repo
 
-```bash
+```
 git clone https://github.com/Sanjana-official/cleantrack.git
 cd cleantrack
 ```
 
 ### 2. Install dependencies
 
-```bash
+```
 npm install
 ```
 
@@ -28,7 +28,7 @@ PORT = 5000
 
 ### 4. Seed database (demo data)
 
-```bash
+```
 node server/seed.js
 ```
 
@@ -48,9 +48,10 @@ http://localhost:5000
 
 
 ```
-
 https://laundry-order-management-cleantrack.onrender.com
 ```
+
+---
 
 # FILE MAP
 
