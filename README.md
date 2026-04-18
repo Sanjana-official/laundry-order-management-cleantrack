@@ -6,7 +6,8 @@
 ### 1. Clone the repo
 
 ```
-git clone https://github.com/Sanjana-official/cleantrack.git
+git clone https://github.com/Sanjana-official/laundry-order-management-cleantrack
+.git
 cd cleantrack
 ```
 
