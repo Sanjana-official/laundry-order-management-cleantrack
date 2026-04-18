@@ -53,54 +53,54 @@ cleantrack/ <br>
 ├── package.json                   ← dependencies & npm scripts<br>
 ├── .env.example                   ← environment variable template<br>
 ├── .gitignore<br>
-├── README.md                      ← full setup + deployment guide
-│
-├── server/
-│   ├── index.js                   ← Express app entry point
-│   ├── db.js                      ← MongoDB/Mongoose connection
-│   ├── seed.js                    ← seeds demo users + orders
-│   ├── middleware/
-│   │   └── auth.js                ← JWT protect() + adminOnly()
-│   ├── models/
-│   │   ├── User.js                ← User schema (bcrypt, roles)
-│   │   └── Order.js               ← Order schema (garments, delivery, status)
-│   └── routes/
-│       ├── auth.js                ← login / register / me
-│       └── orders.js              ← full CRUD + search + dashboard
-│
-├── client/public/
-│   └── index.html                 ← entire frontend (auth + app)
-│
-├── render.yaml                    ← Render.com deploy config
-├── railway.toml                   ← Railway deploy config
-└── Dockerfile                     ← Docker / AWS / GCP
+├── README.md                      ← full setup + deployment guide<br>
+│<br>
+├── server/<br>
+│   ├── index.js                   ← Express app entry point<br>
+│   ├── db.js                      ← MongoDB/Mongoose connection<br>
+│   ├── seed.js                    ← seeds demo users + orders<br>
+│   ├── middleware/<br>
+│   │   └── auth.js                ← JWT protect() + adminOnly()<br>
+│   ├── models/<br>
+│   │   ├── User.js                ← User schema (bcrypt, roles)<br>
+│   │   └── Order.js               ← Order schema (garments, delivery, status)<br>
+│   └── routes/<br>
+│       ├── auth.js                ← login / register / me<br>
+│       └── orders.js              ← full CRUD + search + dashboard<br>
+│<br>
+├── client/public/<br>
+│   └── index.html                 ← entire frontend (auth + app)<br>
+│<br>
+├── render.yaml                    ← Render.com deploy config<br>
+├── railway.toml                   ← Railway deploy config<br>
+└── Dockerfile                     ← Docker / AWS / GCP<br>
 
 
 ## 🛠️ Tech Stack
-🎨 Frontend: HTML, CSS, JavaScript (Vanilla)
-🟢 Backend: Node.js, Express.js
-🍃 Database: MongoDB (Mongoose)
-🔐 Auth: JWT, bcrypt.js
-🌐 Deployment: Render / Railway
+🎨 Frontend: HTML, CSS, JavaScript (Vanilla)<br>
+🟢 Backend: Node.js, Express.js<br>
+🍃 Database: MongoDB (Mongoose)<br>
+🔐 Auth: JWT, bcrypt.js<br>
+🌐 Deployment: Render / Railway<br>
 
 ## Features Implemented
 
-🔐 User Authentication (JWT + bcrypt)
-👥 Role-based access (Admin / Staff)
-📦 Order Management (Create, Read, Update, Delete)
-🔍 Search & Filter orders
-📊 Dashboard (order stats & revenue)
-⏱️ Estimated delivery tracking
-🌐 Full-stack integration (frontend + backend)
+🔐 User Authentication (JWT + bcrypt)<br>
+👥 Role-based access (Admin / Staff)<br>
+📦 Order Management (Create, Read, Update, Delete)<br>
+🔍 Search & Filter orders<br>
+📊 Dashboard (order stats & revenue)<br>
+⏱️ Estimated delivery tracking<br>
+🌐 Full-stack integration (frontend + backend)<br>
 
-##⭐ Bonus Features Implemented
+## ⭐ Bonus Features Implemented
 
-🌐 Built a full frontend using HTML/CSS/JavaScript (Vanilla)
-🔐 Implemented JWT-based authentication system
-🗄️ Integrated MongoDB for persistent storage of users and orders
-🔍 Added search functionality (by customer name, phone, and garment type)
-📅 Implemented estimated delivery date tracking
-🚀 Deployed the application on Render (deployment-ready full-stack setup)
+🌐 Built a full frontend using HTML/CSS/JavaScript (Vanilla)<br>
+🔐 Implemented JWT-based authentication system<br>
+🗄️ Integrated MongoDB for persistent storage of users and orders<br>
+🔍 Added search functionality (by customer name, phone, and garment type)<br>
+📅 Implemented estimated delivery date tracking<br>
+🚀 Deployed the application on Render (deployment-ready full-stack setup)<br>
 
 ---
 
