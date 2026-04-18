@@ -50,7 +50,7 @@ http://localhost:5000
 # FILE MAP
 
 cleantrack/ <br>
-├── package.json                   ← dependencies & npm scripts<br>
+├── package.json &nbsp;&nbsp;&nbsp;← dependencies & npm scripts<br>
 ├── .env.example                   ← environment variable template<br>
 ├── .gitignore<br>
 ├── README.md                      ← full setup + deployment guide<br>
