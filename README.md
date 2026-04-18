@@ -6,9 +6,8 @@
 ### 1. Clone the repo
 
 ```
-git clone https://github.com/Sanjana-official/laundry-order-management-cleantrack
-.git
-cd cleantrack
+git clone https://github.com/Sanjana-official/laundry-order-management-cleantrack.git
+cd laundry-order-management-cleantrack
 ```
 
 ### 2. Install dependencies
@@ -44,15 +43,17 @@ Open:
 ```
 http://localhost:5000
 ```
----
-## 🌍 Live Demo
 
+---
+
+## 🌍 Live Demo
 
 ```
 https://laundry-order-management-cleantrack.onrender.com
 ```
 
 ---
+
 
 # FILE MAP
 
