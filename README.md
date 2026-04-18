@@ -51,29 +51,29 @@ http://localhost:5000
 
 cleantrack/ <br>
 ├── package.json &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← dependencies & npm scripts<br>
-├── .env.example                   ← environment variable template<br>
+├── .env.example&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← environment variable template<br>
 ├── .gitignore<br>
-├── README.md                      ← full setup + deployment guide<br>
+├── README.md&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← full setup + deployment guide<br>
 │<br>
 ├── server/<br>
-│   ├── index.js                   ← Express app entry point<br>
-│   ├── db.js                      ← MongoDB/Mongoose connection<br>
-│   ├── seed.js                    ← seeds demo users + orders<br>
+│   ├── index.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Express app entry point<br>
+│   ├── db.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← MongoDB/Mongoose connection<br>
+│   ├── seed.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← seeds demo users + orders<br>
 │   ├── middleware/<br>
-│   │   └── auth.js                ← JWT protect() + adminOnly()<br>
+│   │   └── auth.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← JWT protect() + adminOnly()<br>
 │   ├── models/<br>
-│   │   ├── User.js                ← User schema (bcrypt, roles)<br>
-│   │   └── Order.js               ← Order schema (garments, delivery, status)<br>
+│   │   ├── User.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← User schema (bcrypt, roles)<br>
+│   │   └── Order.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Order schema (garments, delivery, status)<br>
 │   └── routes/<br>
-│       ├── auth.js                ← login / register / me<br>
-│       └── orders.js              ← full CRUD + search + dashboard<br>
+│       ├── auth.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← login / register / me<br>
+│       └── orders.js&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← full CRUD + search + dashboard<br>
 │<br>
 ├── client/public/<br>
-│   └── index.html                 ← entire frontend (auth + app)<br>
+│   └── index.html&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← entire frontend (auth + app)<br>
 │<br>
-├── render.yaml                    ← Render.com deploy config<br>
-├── railway.toml                   ← Railway deploy config<br>
-└── Dockerfile                     ← Docker / AWS / GCP<br>
+├── render.yaml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Render.com deploy config<br>
+├── railway.toml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Railway deploy config<br>
+└── Dockerfile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← Docker / AWS / GCP<br>
 
 
 ## 🛠️ Tech Stack
