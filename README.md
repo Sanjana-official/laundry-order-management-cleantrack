@@ -108,11 +108,12 @@ http://localhost:5000
 
 * Screenshots of login, dashboard, orders
 <img width="1478" height="873" alt="image" src="https://github.com/user-attachments/assets/e4c5c7bd-d87c-427c-8686-5d55d0135a1c" />
-<img width="1051" height="822" alt="image" src="https://github.com/user-attachments/assets/25975203-85d3-4562-a8de-62e9e67f0095" />
-
+<br>
 <img width="1302" height="842" alt="image" src="https://github.com/user-attachments/assets/1ac17304-4870-421b-b093-7ff1fb5fd3c8" />
+<br>
 <img width="1312" height="832" alt="image" src="https://github.com/user-attachments/assets/aa22f7c4-b95a-4840-a74a-6877557614fc" />
-<img width="1288" height="672" alt="image" src="https://github.com/user-attachments/assets/635f6663-26c0-4f2d-bfda-cd02913bf995" />
+<img width="1322" height="616" alt="image" src="https://github.com/user-attachments/assets/355a7ec3-dde8-445b-a83f-927300a212e4" />
+<br>
 <img width="1311" height="875" alt="image" src="https://github.com/user-attachments/assets/475e3d4c-7d11-4bd9-91af-8be7cd55180b" />
 
 
