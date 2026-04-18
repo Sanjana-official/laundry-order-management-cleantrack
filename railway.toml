@@ -1,0 +1,12 @@
+# railway.toml — Railway deployment config
+# Docs: https://docs.railway.app/reference/config-as-code
+
+[build]
+builder = "nixpacks"        # auto-detects Node.js
+
+[deploy]
+startCommand = "npm start"
+healthcheckPath = "/api/health"
+healthcheckTimeout = 30
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
